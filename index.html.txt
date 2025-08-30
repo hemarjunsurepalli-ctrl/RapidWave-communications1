@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapid Wave Communications</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #0066cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background: #004080;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 30px;
+    }
+    h2 {
+      color: #004080;
+    }
+    .btn {
+      display: inline-block;
+      background: #0066cc;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #004080;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rapid Wave Communications</h1>
+    <p>Empowering the future of wireless connectivity</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#applications">Applications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Rapid Wave Communications represents advanced wireless technologies like 5G, IoT, and high-speed data transfer. 
+    It enables seamless connectivity, ultra-low latency, and enhanced bandwidth to power the modern digital world.</p>
+  </section>
+
+  <section id="applications">
+    <h2>Applications</h2>
+    <ul>
+      <li>5G Networks for faster connectivity</li>
+      <li>IoT devices for smart homes and industries</li>
+      <li>Satellite communications</li>
+      <li>Healthcare and remote monitoring</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you want to know more, feel free to connect with us!</p>
+    <button class="btn" onclick="showMessage()">Click Me</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rapid Wave Communications | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Thank you for exploring Rapid Wave Communications!");
+    }
+  </script>
+
+</body>
+</html>
